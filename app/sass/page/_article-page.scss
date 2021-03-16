@@ -1,0 +1,32 @@
+#article-page {
+    .wrap {
+        padding: 60px 0px ;
+    }
+
+    .article-page__title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 40px 0px;
+    }
+
+    article {
+        img {
+            width: 384px;
+            height: 207px;
+            display: inline-block;
+            margin: 0px 20px 20px 0px;
+            float: left;
+        }
+
+        p {
+            font-family: 'Mukta';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.8rem;
+            line-height: 1.4;
+            margin-bottom: 40px;
+        }
+    }
+
+}

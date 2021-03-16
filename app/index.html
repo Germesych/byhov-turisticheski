@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      property="og:title"
+      content="Равзработка сайтов под ключ, от alexws.by"
+    />
+    <meta property="og:site_name" content="alexws.by" />
+    <meta property="og:url" content="http://alexws.by/" />
+    <meta
+      property="og:description"
+      content="Разработка сайтов, лендингов, настройка и ведение рекламы"
+    />
+    <!-- <meta property="og:image" content="./img/header/header.jpg"> -->
+    <meta name="author" content="alexws.by" />
+    <!-- <link rel="icon" href="https://сайт.com/favicon.ico" type="image/x-icon"> -->
+    <link rel="icon" href="/favicon.ico" />
+    <!-- Основные css -->
+    <link rel="stylesheet" href="css/app.min.css" />
+    <title>Разработано - alexws.by</title>
+  </head>
+  <body>
+    <!-- Блок ууправления для слабовидящих -->
+    <div class="nav-visually" id="visually-block">
+      <div class="nav-visually__setings">
+        <h4>Размер шрифта PX</h4>
+        <button class="nav-visually__btn" name="text--up">А+</button>
+        <button class="nav-visually__btn" name="text--reduce">А-</button>
+      </div>
+      <!-- /.nav-visually__setings -->
+      <div class="nav-visually__setings">
+        <h4>Цвет сайта</h4>
+        <!-- Черным по белому -->
+        <button class="nav-visually__btn color--bw" name="visually__on-wb">Ц</button>
+        <!-- Белым по черному -->
+        <button class="nav-visually__btn color--wb" name="visually__on-bw">Ц</button>
+        <!-- темно синий по голбому -->
+        <button class="nav-visually__btn color--bb" name="visually__on-bb">Ц</button>
+        <!-- коричневый по бежевому -->
+        <button class="nav-visually__btn color--brown" name="visually__on-brown">Ц</button>
+        <!-- зеленый по темнокоричневому -->
+        <button class="nav-visually__btn color--bgreen" name="visually__on-bgreen">Ц</button>
+      </div>
+      <!-- /.nav-visually__setings -->
+      <div class="nav-visually__setings">
+        <h4>Выключить изображения</h4>
+        <button class="nav-visually__btn" name="nav-visually__img-on">включены</button>
+        <button class="nav-visually__btn" name="nav-visually__img-off">Выключены</button>
+        <button class="nav-visually__btn" name="nav-visually__img-bw">черно-белые</button>
+      </div>
+      <!-- /.nav-visually__setings -->
+      <div class="nav-visually__setings">
+        <h4>Закрыть блок навигации</h4>
+        <button class="nav-visually__btn nav-visually__close" name="close">Закрыть</button>
+        <button class="nav-visually__btn" name="reset">Сбросить все настройки</button>
+      </div>
+      <!-- /.nav-visually__setings -->
+    </div>
+    <!-- /.nav-visually -->
+    <!-- END /Блок ууправления для слабовидящих -->
+    <header class="header-top">
+      <section class="headr-top__nav">
+        <div class="logo-top">
+          <img src="./img/logo.png" alt="logo" />
+        </div>
+        <!-- /.logo-top -->
+        <nav id="top-nav" class="top-nav">
+          <button class="burger-menu">
+            Меню
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-menu">
+            <batton class="close-nav">&#10006;</batton>
+            <li class="menu-item current_page_item">
+              <a href="./">Главная</a>
+            </li>
+            <li class="menu-item">
+              <a href="./about.html">О нас</a>
+            </li>
+            <li class="menu-item">
+              <a href="./for-tourists.html">Туристам</a>
+            </li>
+            <li class="menu-item">
+              <a href="./object-page.html">Объекты</a>
+            </li>
+            <li class="menu-item">
+              <a href="./article-page.html">Полезные статьи</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="logo-partners">
+          <img src="./img/logo-partners.svg" alt="logo partners" />
+        </div>
+        <!-- /.logo-partners -->
+        <div class="setings-top">
+          <button class="visually-impaired">
+            <img src="./img/seting-icon.png" alt="открыть меню смены вида" />
+          </button>
+          <!-- /.visually-impaired -->
+          <div class="lang">Рус</div>
+        </div>
+        <!-- /.setings-top -->
+      </section>
+      <!-- /.headr-top__nav -->
+      <section class="header-top__content">
+        <div class="bg-video-block">
+          <video loop="" muted="" autoplay="" poster="img/header.png" class="video-bg">
+              <source src="./assets/video-headr.mp4" type="video/mp4">
+              <source src="./assets/video-headr.webm" type="video/webm">
+          </video>
+      </div>
+        <div class="header-top__title">
+          <h1>БЫХОВ <span>ТУРИСТИЧЕСКИЙ</span></h1>
+          <h2>ОТДЫХ КОТОРЫЙ ЗАПОМНИТСЯ!</h2>
+        </div>
+      </section>
+      <!-- /.header-top__hedr -->
+    </header>
+    <!-- /.header-top -->
+    <main id="home">
+      <section class="about">
+        <div class="wrap">
+          <h2 class="title">О нас:</h2>
+          <div class="about__article-preview">
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+              penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Donec quam felis, ultricies nec, pellentesque eu, pretium quis,
+              sem. nihil, voluptatibus iure ipsum voluptatem facere!
+            </p>
+            <p>
+              Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
+              aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
+              imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede
+              mollis pretium. Integer tincidunt. Cras dapibus.
+            </p>
+          </div>
+          <div class="more-detailed">
+            <a href="#!" class="more-detailed__link">Подробнее &rarr;</a>
+          </div>
+        </div>
+      </section>
+      <!-- /.about -->
+
+      <section class="type-objects">
+        <div class="wrap">
+          <h2 class="title">Виды объектов</h2>
+          <div class="type-objects__wrap">
+            <div class="type-objects__block">
+              <a href="#">
+              <img src="./img/image-1.png" alt="картинка" />
+              <h3 class="type-objects__title">туристам</h3>
+            </a>
+            </div>
+            <!-- /.type-objects__block -->
+            <div class="type-objects__block">
+              <a href="#">
+              <img src="./img/image-2.png" alt="картинка" />
+              <h3 class="type-objects__title">Предпринимателям</h3>
+            </a>
+            </div>
+            <!-- /.type-objects__block -->
+          </div>
+        </div>
+      </section>
+      <!-- /.type-objects -->
+
+      <section class="articles-news">
+        <div class="wrap">
+          <h2 class="title">статьи и новости</h2>
+          <div class="content">
+            <div class="articles-news__block">
+              <img src="./img/image-3.png" alt="img" />
+              <h3>История Быхова</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+                earum fugit doloremque! Nam pariatur animi totam nisi ex, rerum
+                iusto similique! Fugit neque molestias cumque eaque, aut vitae
+                amet minus.
+              </p>
+              <div class="more-detailed">
+                <time>16.02.21</time>
+                <a href="#!" class="more-detailed__link">Подробнее &rarr;</a>
+              </div>
+            </div>
+            <!-- /.articles-news__block -->
+            <div class="articles-news__block">
+              <img src="./img/image-4.png" alt="img" />
+              <h3>История Быхова</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+                earum fugit doloremque! Nam pariatur animi totam nisi ex, rerum
+                iusto similique! Fugit neque molestias cumque eaque, aut vitae
+                amet minus.
+              </p>
+              <div class="more-detailed">
+                <time>16.02.21</time>
+                <a href="#!" class="more-detailed__link">Подробнее &rarr;</a>
+              </div>
+            </div>
+            <!-- /.articles-news__block -->
+            <div class="articles-news__block">
+              <img src="./img/image-5.png" alt="img" />
+              <h3>История Быхова</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+                earum fugit doloremque! Nam pariatur animi totam nisi ex, rerum
+                iusto similique! Fugit neque molestias cumque eaque, aut vitae
+                amet minus.
+              </p>
+              <div class="more-detailed">
+                <time>16.02.21</time>
+                <a href="#!" class="more-detailed__link">Подробнее &rarr;</a>
+              </div>
+            </div>
+            <!-- /.articles-news__block -->
+          </div>
+          <!-- /.content -->
+        </div>
+      </section>
+      <!-- /.articles-news -->
+
+      <section class="reviews">
+        <div class="wrap">
+          <h2 class="title">Отзывы</h2>
+          <div class="content">
+            <!-- Slider main container -->
+            <div class="swiper-container reviews-slider">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                  <div class="reviews__card">
+                    <div class="reviews__title">
+                      <img
+                        src="./img/rewievs.jpg"
+                        alt=""
+                        class="reviews__img"
+                      />
+                      <div class="reviews__autor">
+                        <h4>Дмитрий Иванов</h4>
+                        <time>16.02.21</time>
+                        <h6>Усадьба «Медвежий угол»</h6>
+                      </div>
+                    </div>
+                    <div class="reviews__text">
+                      Вообщем поехал на один день просто половить рыбу в итоге
+                      остался на неделю, дом просто шикарный, особенно когда
+                      вечером сидишь у камина под тихую музыку отдыхаешь и душой
+                      и телом.
+                    </div>
+                  </div>
+                  <!-- /.reviews__card -->
+                </div>
+                <div class="swiper-slide">
+                  <div class="reviews__card">
+                    <div class="reviews__title">
+                      <img
+                        src="./img/rewievs.jpg"
+                        alt=""
+                        class="reviews__img"
+                      />
+                      <div class="reviews__autor">
+                        <h4>Дмитрий Иванов</h4>
+                        <time>16.02.21</time>
+                        <h6>Усадьба «Медвежий угол»</h6>
+                      </div>
+                    </div>
+                    <div class="reviews__text">
+                      Вообщем поехал на один день просто половить рыбу в итоге
+                      остался на неделю, дом просто шикарный, особенно когда
+                      вечером сидишь у камина под тихую музыку отдыхаешь и душой
+                      и телом.
+                    </div>
+                  </div>
+                  <!-- /.reviews__card -->
+                </div>
+                <div class="swiper-slide">
+                  <div class="reviews__card">
+                    <div class="reviews__title">
+                      <img
+                        src="./img/rewievs.jpg"
+                        alt=""
+                        class="reviews__img"
+                      />
+                      <div class="reviews__autor">
+                        <h4>Дмитрий Иванов</h4>
+                        <time>16.02.21</time>
+                        <h6>Усадьба «Медвежий угол»</h6>
+                      </div>
+                    </div>
+                    <div class="reviews__text">
+                      Вообщем поехал на один день просто половить рыбу в итоге
+                      остался на неделю, дом просто шикарный, особенно когда
+                      вечером сидишь у камина под тихую музыку отдыхаешь и душой
+                      и телом.
+                    </div>
+                  </div>
+                  <!-- /.reviews__card -->
+                </div>
+                <div class="swiper-slide">
+                  <div class="reviews__card">
+                    <div class="reviews__title">
+                      <img
+                        src="./img/rewievs.jpg"
+                        alt=""
+                        class="reviews__img"
+                      />
+                      <div class="reviews__autor">
+                        <h4>Дмитрий Иванов</h4>
+                        <time>16.02.21</time>
+                        <h6>Усадьба «Медвежий угол»</h6>
+                      </div>
+                    </div>
+                    <div class="reviews__text">
+                      Вообщем поехал на один день просто половить рыбу в итоге
+                      остался на неделю, дом просто шикарный, особенно когда
+                      вечером сидишь у камина под тихую музыку отдыхаешь и душой
+                      и телом.
+                    </div>
+                  </div>
+                  <!-- /.reviews__card -->
+                </div>
+                <div class="swiper-slide">
+                  <div class="reviews__card">
+                    <div class="reviews__title">
+                      <img
+                        src="./img/rewievs.jpg"
+                        alt=""
+                        class="reviews__img"
+                      />
+                      <div class="reviews__autor">
+                        <h4>Дмитрий Иванов</h4>
+                        <time>16.02.21</time>
+                        <h6>Усадьба «Медвежий угол»</h6>
+                      </div>
+                    </div>
+                    <div class="reviews__text">
+                      Вообщем поехал на один день просто половить рыбу в итоге
+                      остался на неделю, дом просто шикарный, особенно когда
+                      вечером сидишь у камина под тихую музыку отдыхаешь и душой
+                      и телом.
+                    </div>
+                  </div>
+                  <!-- /.reviews__card -->
+                </div>
+                <div class="swiper-slide">
+                  <div class="reviews__card">
+                    <div class="reviews__title">
+                      <img
+                        src="./img/rewievs.jpg"
+                        alt=""
+                        class="reviews__img"
+                      />
+                      <div class="reviews__autor">
+                        <h4>Дмитрий Иванов</h4>
+                        <time>16.02.21</time>
+                        <h6>Усадьба «Медвежий угол»</h6>
+                      </div>
+                    </div>
+                    <div class="reviews__text">
+                      Вообщем поехал на один день просто половить рыбу в итоге
+                      остался на неделю, дом просто шикарный, особенно когда
+                      вечером сидишь у камина под тихую музыку отдыхаешь и душой
+                      и телом.
+                    </div>
+                  </div>
+                  <!-- /.reviews__card -->
+                </div>
+              </div>
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          </div>
+          <!-- /.content -->
+        </div>
+      </section>
+      <!-- /.reeviews -->
+    </main>
+    <!-- /#home -->
+    <section class="form">
+      <div class="wrap">
+        <form action="#!" method="POST">
+          <legend>Напишите нам и мы свяжемся с вами:</legend>
+          <fieldset>
+            <input type="text" name="name" required placeholder="Имя*" />
+            <input type="email" name="email" required placeholder="Email*" />
+            <div>
+              <label for="comment">Какой у вас вопрос?</label>
+              <input
+                type="text"
+                name="comment"
+                id="comment"
+                placeholder="Напишите, что именно вас интересует."
+              />
+            </div>
+          </fieldset>
+          <button type="submit">Отправить запрос</button>
+        </form>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="wrap">
+        <div class="footer__block address">
+          <img src="./img/logo.png" alt="logo" class="footer__logo" />
+          <address>г. Быхов, ул. Сидорчука, 5 +375 29 123 98 98</address>
+        </div>
+        <!-- /.footer__block -->
+        <div class="footer__block">
+          <nav id="footer-nav" class="footer__nav">
+            <ul class="nav-menu">
+              <li class="menu-item current_page_item">
+                <a href="#!">Главная</a>
+              </li>
+              <li class="menu-item">
+                <a href="#!">О нас</a>
+              </li>
+              <li class="menu-item">
+                <a href="#!">Туристам</a>
+              </li>
+              <li class="menu-item">
+                <a href="#!">Объекты</a>
+              </li>
+              <li class="menu-item">
+                <a href="#!">Полезные статьи</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- /.footer__block -->
+        <div class="footer__block footer-text">
+          Сайт разработан в рамках реализации инициативы «Быхов-инновационный»,
+          в рамках проекта «Поддержка экономического развития на местном уровне
+          в Республике Беларусь», который финансируется Европейским союзом (ЕС)
+          и реализуется Программой развития ООН (ПРООН) в партнерстве с
+          Министерством экономики Республики Беларусь.
+        </div>
+        <!-- /.footer__block -->
+        <div class="footer__block">
+          <img
+            src="./img/logo-partners.svg"
+            alt="logo"
+            class="footer__logo-partners"
+          />
+        </div>
+        <!-- /.footer__block -->
+      </div>
+    </footer>
+    <script src="js/app.min.js"></script>
+    <script>
+      // Слайдер на главной комментарии
+      const swiper = new Swiper(".reviews-slider", {
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        // Default parameters
+        slidesPerView: 3,
+        // Responsive breakpoints
+        breakpoints: {
+          // when window width is >= 320px
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          // when window width is >= 980px
+          760: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          // when window width is >= 1200px
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

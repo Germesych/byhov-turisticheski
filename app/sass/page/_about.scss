@@ -1,0 +1,46 @@
+#about {
+
+    article {
+        padding: 55px 0px;
+        font-size: 1.8rem;
+        line-height: 1.4;
+        p{
+            font-size: 1.8rem;
+            line-height: 1.4;
+        }
+
+        .content {}
+
+        .title {
+            margin-top: 60px;
+            margin-bottom: 30px;
+            &::before{
+                margin: 0;
+            }
+        }
+    }
+
+    .our-partners {
+        height: 120px;
+        margin-bottom: 100px;
+        text-align: center;
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin-top: 30px;
+            overflow: hidden;
+
+            img {
+                display: block;
+                max-height: 120px;
+            }
+
+            .title {
+                text-align: center;
+                width: 100%;
+            }
+        }
+    }
+}

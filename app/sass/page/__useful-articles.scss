@@ -1,0 +1,95 @@
+#articles {
+    background: #E5E5E5;
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 80px 0px 70px 0px;
+
+    }
+    .article__card {
+        background: #fff;
+        border-radius: 5px;
+        overflow: hidden;
+        width: 30%;
+        padding-bottom: 15px;
+        margin-bottom: 40px;
+
+        img {
+            width: 100%;
+            height: 175px;
+        }
+
+        h3 {
+            font-family: 'Mukta';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.6rem;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+
+        .content-wrap {
+            padding: 20px;
+        }
+
+        .more-detailed {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        time {
+            font-family: 'Mukta';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.4rem;
+            color: #c0c3c7;
+        }
+
+        .more-detailed__link {}
+    }
+    .pagination {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 100px;
+        ul{
+            display: flex;
+        }
+    .pagination__items {
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .ative {
+        background: var(--main-color-orange);
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        color: #fff;
+    }
+    .pagination__next {
+        display: inline-flex;
+        align-items: center;
+        width: 24px;
+        height: 24px;
+        margin-left: 20px;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .pagination__back {
+        display: inline-flex;
+        align-items: center;
+        width: 24px;
+        height: 24px;
+        margin-right: 20px;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    }
+    
+}

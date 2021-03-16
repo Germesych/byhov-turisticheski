@@ -1,0 +1,209 @@
+// Плагин для слабовидящих
+.visually-impaired {
+    padding: 3px;
+    margin: 2px;
+}
+
+// Черным по белому
+.visually__on-wb {
+    background: #fff !important;
+    color: #000 !important;
+    * {
+        background: #fff !important;
+        color: #000 !important;
+        height: auto !important;
+    }
+    ::placeholder{
+        color: #000 !important;
+    }
+    #home .reviews .reviews__img{
+        height: 56px !important;
+    }
+    #about .our-partners{
+        margin-bottom: 0px;
+    }
+    #top-nav .burger-menu{
+        font-size: 1.4rem !important;
+        font-weight: bold !important;
+    }
+}
+
+// Белым по черному
+.visually__on-bw {
+    * {
+        background: #000 !important;
+        color: #fff !important;
+        height: auto !important;
+    }
+    ::placeholder{
+        color: #fff !important;
+    }
+    #home .reviews .reviews__img{
+        height: 56px !important;
+    }
+    #about .our-partners{
+        margin-bottom: 0px;
+    }
+    #top-nav .burger-menu{
+        font-size: 1.4rem !important;
+        font-weight: bold !important;
+    }
+}
+
+// темно синий по голбому
+.visually__on-bb {
+    * {
+        background: #9dd1ff !important;
+        color: #063462 !important;
+        height: auto !important;
+    }
+    ::placeholder{
+        color: #063462 !important;
+    }
+    #home .reviews .reviews__img{
+        height: 56px !important;
+    }
+    #about .our-partners{
+        margin-bottom: 0px;
+    }
+    #top-nav .burger-menu{
+        font-size: 1.4rem !important;
+        font-weight: bold !important;
+    }
+}
+
+// коричневый по бежевому
+.visually__on-brown {
+    * {
+        background-color: #f7f3d6 !important;
+        color: #4d4b43 !important;
+        height: auto !important;
+    }
+    ::placeholder{
+        color: #4d4b43 !important;
+    }
+    #home .reviews .reviews__img{
+        height: 56px !important;
+    }
+    #about .our-partners{
+        margin-bottom: 0px;
+    }
+    #top-nav .burger-menu{
+        font-size: 1.4rem !important;
+        font-weight: bold !important;
+    }
+}
+
+// зеленый по темнокоричневому
+.visually__on-bgreen {
+    * {
+        background: #3b2716 !important;
+        color: #a9e44d !important;
+        height: auto !important;
+    }
+    ::placeholder{
+        color: #a9e44d !important;
+    }
+    #home .reviews .reviews__img{
+        height: 56px;
+    }
+}
+// Работа с изображениями
+.nav-visually__img-on{
+}
+.nav-visually__img-off{
+    img{
+        display: none !important;
+    }
+}
+.nav-visually__img-bw{
+    img{
+        filter: grayscale(1) !important;
+    }
+}
+
+#visually-block {
+    background: #fff !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: none;
+    flex-wrap: wrap;
+    z-index: 999999999;
+
+    .nav-visually__setings {
+        margin: 20px;
+    }
+
+    .nav-visually__btn {
+        border: 1px solid #000 !important;
+        padding: 10px 15px;
+        margin: 5px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 2rem;
+    }
+    h4{
+        background: #fff !important;
+        color: #000 !important;
+    }
+    div{
+        background: #fff !important;
+    }
+}
+// Черным по белому
+.color--bw {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+// Белым по черному
+.color--wb {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+// темно синий по голбому
+.color--bb {
+    background-color: #9dd1ff !important;
+    color: #063462 !important;
+}
+
+// коричневый по бежевому
+.color--brown {
+    background-color: #f7f3d6  !important;
+    color: #4d4b43  !important;
+}
+
+// зеленый по темнокоричневому
+.color--bgreen {
+    background: #3b2716 !important;
+    color: #a9e44d !important;
+}
+.text--up{
+    *{
+        font-size: 2.8rem !important;
+        height: auto !important;
+    }
+    .wrap, .headr-top__nav{
+        max-width: 100% !important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #home .reviews .reviews__img{
+        height: 56px !important;
+    }
+    #about .our-partners{
+        margin-bottom: 0px;
+    }
+    #top-nav .burger-menu{
+        font-size: 1.4rem !important;
+        font-weight: bold !important;
+    }
+}
+.nav-visually {}
+.visually-impaired img{
+    display: block !important;
+}

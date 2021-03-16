@@ -1,0 +1,340 @@
+// Экстрабольшие девайсы (большие десктопы, >= 1200px)
+@media (max-width: 1200px) {
+
+    .wrap,
+    .headr-top__nav {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #about article {
+        padding: 55px 10px;
+    }
+
+    #home .type-objects .type-objects__block {
+        margin-right: 20px;
+        margin-bottom: 20px;
+
+        img {
+            height: 320px;
+        }
+
+        &:last-of-type {
+            margin-right: 0px;
+        }
+    }
+
+    .footer {
+        height: auto;
+        padding: 20px 10px;
+
+        .address {
+            order: 1;
+        }
+
+        .footer-text {
+            width: 60%;
+            margin: 20px 0px;
+        }
+
+        .wrap {
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            #footer-nav {
+                width: 100px;
+            }
+        }
+    }
+
+    #for-turists .swiper-for-turists .swiper-wrapper {
+        height: auto;
+    }
+
+    #for-turists .swiper-for-turists .swiper-slide img {
+        height: auto;
+    }
+
+    #object-page {
+        .object-page__top {
+            justify-content: space-around;
+        }
+
+        .object-page__map {
+            margin-top: 40px;
+        }
+
+        .object-page__gallery {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+// Большие девайсы (десктопы, >= 992px)
+@media (max-width: 992px) {
+    #top-nav {
+        order: -1;
+        .current_page_item::before{
+            margin: 0;
+        }
+        .close-nav{
+            display: none;
+            position: absolute;
+            top: 10px;
+            left: auto;
+            right: 10px;
+            font-size: 2rem;
+            cursor: pointer;
+            z-index: 9999;
+        }
+    }
+
+    #top-nav .nav-menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #fff;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        justify-content: start;
+        padding: 30px 25px;
+        z-index: 9999;
+        .menu-item{
+            width: 100%;
+            margin-bottom: 25px;
+        }
+        display: none;
+    }
+
+    #top-nav .burger-menu {
+        display: flex;
+    }
+
+    .setings-top {
+        order: -1;
+    }
+
+    #home {
+        .about {
+            height: auto;
+
+            .more-detailed {
+                margin-right: 5%;
+            }
+
+            .about__article-preview {
+                flex-wrap: wrap;
+                padding: 0px 5%;
+                height: auto;
+
+                p {
+                    margin-bottom: 25px;
+                    height: auto;
+                    max-width: 100%;
+                }
+            }
+        }
+
+        .type-objects .type-objects__wrap {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    #for-turists {
+        .content .img-map {
+            height: auto;
+        }
+
+        .content .for-turists__country {
+            padding: 0px 40px;
+            height: 700px;
+        }
+    }
+    #home .type-objects .type-objects__block{
+        margin-right: 0px;
+    }
+
+}
+
+// Средние девайсы («таблетки», >= 768px)
+@media (max-width: 768px) {
+    .logo-top {
+        display: none;
+    }
+
+    .logo-partners {
+        max-width: 280px;
+        width: 100%;
+    }
+
+    .logo-partners img {
+        max-width: 280px;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .setings-top {
+        width: 100px;
+        padding: 0px 10px;
+    }
+
+    #home {
+        .articles-news {
+            height: auto;
+
+            .content {
+                flex-wrap: wrap;
+
+                .articles-news__block {
+                    width: 60%;
+                    margin: 0px auto;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+
+    #about .our-partners .content {
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        img {
+            margin: 20px;
+        }
+    }
+
+    #about .our-partners {
+        height: auto;
+    }
+}
+
+@media (max-width: 710px) {
+    #for-turists {
+        .content .for-turists__country {
+            padding: 0px 40px;
+            height: 980px;
+        }
+    }
+
+    #object-page {
+        .object-page__gallery{
+            justify-content: center;
+        }
+        .object-page__block-gal {
+            display: flex;
+            justify-content: space-around;
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            margin-right: 0px;
+        }
+        .object-page__block-gal img{
+            max-width: 180px;
+        }
+    }
+    .header-top__content{
+        padding: 30px 10px;
+        height: 280px;
+    }
+}
+
+
+// Малые девайсы («ландшафтные телефоны», >= 576px)
+@media (max-width: 576px) {
+    .header-top__contant {
+        padding: 50px 10px;
+        height: auto;
+
+        h1 {
+            font-size: 3rem;
+        }
+    }
+
+    #home .articles-news .content .articles-news__block {
+        width: 95%;
+    }
+
+    #for-turists .video .video__content {
+        justify-content: center;
+    }
+
+    .footer .footer__logo-partners {
+        margin: 20px 0px;
+    }
+
+    .form {
+        height: auto;
+        padding: 40px 0px;
+    }
+
+    .form form input {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    #object-page {
+        .object-page__gallery{
+            justify-content: center;
+        }
+        .object-page__block-gal {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 100%;
+            width: 100%;
+            height: auto;
+            margin-right: 0px;
+        }
+        .object-page__block-gal img{
+            max-width: 90px;
+            height: 60px;
+        }
+        .object-page__block-img{
+            width: 98%;
+            height: auto;
+            margin-top: 10px;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        .object-page__map .object-page__map-block {
+            max-width: 98%;
+            height: auto;
+            overflow: hidden;
+            border-radius: 5px;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    #article-page{
+        article {
+            padding: 10px;
+            img {
+        max-width: 100%;
+        height: auto;
+        }
+    }
+    }
+}
+
+// Очень малые девайсы («ландшафтные телефоны», >= 320px)
+@media (max-width: 420px) {
+    .header-top__content{
+        padding: 10px;
+        height: 200px;
+        h1{
+            font-size: 3rem;
+        }
+        h2{
+            font-size: 2rem;
+        }
+    }
+    .footer .footer-text {
+        width: 100%;
+    }
+}

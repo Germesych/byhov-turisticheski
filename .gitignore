@@ -1,0 +1,10 @@
+/node_modules/
+/.git/
+/.ide/
+/ide
+/dist
+/.dist
+/**/Thumbs.db
+/**/*.DS_Store
+/**/package-lock.json
+/debug.log

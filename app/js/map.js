@@ -4,12 +4,10 @@
 const addressMap = document.querySelector(".address-map");
 const coordinatesN1 = document.querySelector(".coordinates-n");
 const coordinatesE1 = document.querySelector(".coordinates-e");const yandexMapInit = document.querySelector(".object-page__map-block");
-if (addressMap) {
-  const coordinatesN = +coordinatesN1.innerText;
-  const coordinatesE = +coordinatesE1.innerText;
-}
 
 if (yandexMapInit) {
+  const coordinatesN = +coordinatesN1.innerText;
+  const coordinatesE = +coordinatesE1.innerText;
   ymaps.ready(function () {
     var myMap = new ymaps.Map(
         "map",

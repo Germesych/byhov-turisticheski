@@ -80,8 +80,8 @@ function buildcopy() {
       "app/js/**/*.min.js",
       "app/img/**/*",
       "app/**/*.html",
-      "app/fonts/*",
-      "app/assets/*",
+      "app/fonts/**/*",
+      "app/assets/**/*",
     ],
     { base: "app" }
   ).pipe(dest("dist"));
